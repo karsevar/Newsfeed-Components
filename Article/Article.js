@@ -19,7 +19,7 @@ class Article {
     const deleteButton = document.createElement('span');
     deleteButton.className = 'remove';
     deleteButton.textContent = 'read';
-    this.domElement.prepend(deleteButton)
+    this.domElement.prepend(deleteButton);
 
     this.removeButton = this.domElement.querySelector('.remove');
     // Setting a click handler for removeButton:
